@@ -1,33 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:id="@+id/imageView"
-        android:src="@drawable/pet"
-        android:scaleType="centerCrop" />
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="MainActivity"
+android:background="#000000">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MyRestaurants"
-        android:layout_marginTop="35dp"
-        android:id="@+id/textView"
-        android:textColor="@color/colorTextIcons"
-        android:textSize="40sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textStyle="bold" />
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pet" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Find Restaurants"
-        android:id="@+id/findRestaurantsButton"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@color/colorAccent"
-        android:textColor="@color/colorTextIcons" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Fill The Form Appropriately"
+    android:id="@+id/appNameTextView"
+    android:layout_marginTop="150dp"
+    android:layout_marginLeft="100dp"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:textColor="#009688"
+    />
 
+<EditText
+    android:id="@+id/locationEditText"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="250dp"
+    android:layout_marginLeft="100dp"
+    android:textColor="#ffff"
+    android:hint="Enter Full Name"
+    android:textColorHint="@color/colorAccent"
+    />
+
+<EditText
+    android:id="@+id/password"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="300dp"
+    android:layout_marginLeft="100dp"
+    android:textColor="#ffff"
+    android:hint="Enter Password"
+    android:textColorHint="@color/colorAccent"
+    />
+
+<Button
+    android:id="@+id/nextButtonAuth"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginTop="380dp"
+    android:layout_marginEnd="189dp"
+    android:layout_marginRight="189dp"
+    android:layout_marginBottom="80dp"
+    android:background="@color/colorAccent"
+    android:textColor="@color/colorTextIcons"
+    android:text="Authenticate" />
 </RelativeLayout>
