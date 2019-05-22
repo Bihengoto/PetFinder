@@ -24,7 +24,7 @@
         />
 
     <EditText
-        android:id="@+id/patient"
+        android:id="@+id/pets"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
@@ -37,7 +37,7 @@
 
 
     <Button
-        android:id="@+id/bookNow"
+        android:id="@+id/find"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
