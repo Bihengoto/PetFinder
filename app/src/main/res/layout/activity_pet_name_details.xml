@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PetNameDetails">
+    tools:context=".PetNameDetails"
+    android:background="#000000">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pet" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill The Form Appropriately"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#009688"
+        />
+
+    <EditText
+        android:id="@+id/patient"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#ffff"
+        android:hint="Pet Name Details"
+        android:textColorHint="@color/colorAccent"
+        />
+
+
+
+    <Button
+        android:id="@+id/bookNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginRight="189dp"
+        android:layout_marginBottom="300dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorTextIcons"
+        android:text="Find" />
+
+</RelativeLayout>
