@@ -36,4 +36,4 @@ PetFinder is an Android app that assits one to locate his or her pet that is dog
 * Android
 
 ## License
-MIT [LICENSE] (LICENSE)
+PetFinder was released under [MIT](LICENSE)
